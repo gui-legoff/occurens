@@ -1,0 +1,72 @@
+@font-face {font-family:'Roboto-Thin'; src:url(../fonts/Roboto-Thin.ttf)}
+@font-face {font-family:'Roboto-Light'; src:url(../fonts/Roboto-Light.ttf)}
+@font-face {font-family:'Roboto-Regular'; src:url(../fonts/Roboto-Regular.ttf)}
+
+/*  BANDEAUX  */
+
+.h1-banniere p{color: #252525}
+
+
+/* ________  CONTENT ___________*/ 
+
+/* _________ FORMULAIRE  __________*/
+
+.section-3_c{padding: 0 10%}
+.content_form{padding: 30px;background: rgba(231,231,231,0.5);border-radius: 5px;width: 40%;box-shadow: 0 0 17px 17px rgba(136,136,136,0.4);float: left;margin: 0 2.5%}
+
+.section-3_c h3 {float: none}
+.section-3_c h1 {text-align: center;font-size: 25px;margin-bottom: 70px;font-family: Roboto-Light}
+
+.section-3_c p {color: #8E8E8E;font-style: italic}
+.content_form p:nth-child(2){font-size: 17px}
+
+.formulaire {margin-top: 50px}
+.formulaire p {color: rgba(73,73,73,0.9);font-family: Roboto-Regular;font-style: normal;font-size: 17px}
+.formulaire input ,.formulaire textarea{padding: 10px;border-radius: 7px; border: 1.5px solid rgba(71,71,71,0.4);width: 96%;margin: 10px 0}
+.formulaire input:focus ,.formulaire textarea:focus{border: 1.5px solid rgba(140,225,255,1.00)}
+.formulaire textarea {max-width: 96%;min-width: 96%;height: 150px}
+.btn{float: right;width: 110px!important;cursor: pointer;transition-duration: 350ms;background: white}
+.btn:hover {background: #00C0FF;transition-duration: 350ms;border: 1px solid #8CE1FF;transform: scale(0.96);color: white}
+
+.erreur{color: red!important;font-style: italic!important;font-size:16px!important }
+.validate{color: green!important;font-style: italic!important;font-size:16px!important }
+.valid{margin: 0 auto;width: 25%;margin-top: 25px;display: block}
+
+/* _________ block de droite  __________*/
+
+.h3{color: #292929!important}
+
+.content_form_c{padding: 2%;width: 30%;float: left;margin-left:12%}
+.content_form_c img {width: 75px;float: left}
+.content_form_c p {line-height: 75px;float: left;margin-left: 20px;color:#565656!important;font-style: normal}
+.content_form_c div{margin-bottom: 6px}
+
+/**/
+
+.titre_article {
+
+    line-height: 35px;
+    float: left;
+    width: 500px;
+    margin: 25px 0;
+    font-size: 40px;
+    font-family: Roboto-Thin;
+    color: #00C0FF;
+}
+	
+	
+
+/********  Responsive  *********/
+
+@media (max-width:1300px){
+	.content_form, .content_form_c{width: 100%;float: none}
+	.content_form{width: 88%;margin-bottom: 50px}
+	.content_form_c{margin-left: 0}
+	.titre_article {font-size: 80px!important;margin-bottom: 50px!important}
+	.section-3{padding-top: 50px!important}
+	
+}
+
+
+
+

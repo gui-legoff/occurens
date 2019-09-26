@@ -1,0 +1,67 @@
+@font-face {font-family:'Roboto-Thin'; src:url(../fonts/Roboto-Thin.ttf)}
+@font-face {font-family:'Roboto-Light'; src:url(../fonts/Roboto-Light.ttf)}
+@font-face {font-family:'Roboto-Regular'; src:url(../fonts/Roboto-Regular.ttf)}
+
+
+p{font-family: 'Raleway', sans-serif}
+
+/********   HEADER   *********/
+
+.global_banniere{box-shadow: 0 0 17px 17px rgba(136,136,136,0.4);}
+.h1, .h2{color: rgba(31,31,31,1.00)!important}
+.section-3{padding:2%!important;width: 96%!important}
+
+/********  BODY  *********/
+
+
+.titre_article {
+    line-height: 35px;
+    float: left;
+    width: 500px;
+    margin: 25px 0;
+    font-size: 40px;
+    font-family: Roboto-Thin;
+    color: #00C0FF;
+}
+
+
+.block{width: 26%;float: left;transition-duration: 1s;padding: 2%;box-shadow:0 0 4px 4px rgba(136,136,136,0.3);background: white}
+.block:hover{box-shadow: 0 0 8px 8px rgba(136,136,136,0.6);transition-duration: 500ms}
+
+.block_milieu {margin:0 5%}
+
+.titre_article{float: none!important;width: 100%!important}
+.titre_b{height: 1px;background: rgba(47,47,47,0.2);width: 80%;margin-bottom: 10%}
+
+.block_content{margin:10px 0}
+
+.italic{font-style: italic;color: rgba(131,131,131,1.00);margin-bottom: 25px;font-size: 17px!important}
+.blue{color: #00C0FF}
+.gris{background: rgba(183,183,183,0.25)}
+
+.block_content img,.block_content span,.block_content svg{float: left}
+.block_content svg{margin-right: 3%}
+
+.span {line-height: 1.7!important;color: #565656;font-size: 18px}
+.block_content img{width: 26px;margin-right: 4%}
+.font_awesome{font-size: 26px}
+.gris{padding: 2.5%}
+
+.button_contact {background: #727272;padding: 10px 20px;color: white;border-radius: 5px;float: right!important;margin-top: 50px;transition-duration: 400ms;border: 2px solid #505050;}
+.button_contact:hover {background: #5E5E5E;transition-duration: 200ms;border: 2px solid #000000;transform: scale(0.96)}
+
+
+.petite_ligne{font-size: 14px;margin-top: 3%}
+.blanc{padding: 2.5%}
+
+/********  Responsive  *********/
+
+@media (max-width:1300px){
+	
+	/* rectiver le padding top de section3*/
+	.section-3{padding-top: 0!important}
+	.block_milieu{margin: 0}
+	.block{width: 100%;margin-bottom: 50px}
+	
+	
+}
